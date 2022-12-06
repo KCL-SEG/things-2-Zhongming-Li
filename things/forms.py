@@ -11,6 +11,6 @@ class ThingForm(forms.ModelForm):
         'description',
         'quantity'
         }
-        widgets = { 'bio': forms.Textarea(),
+        widgets = { 'description': forms.Textarea(),
                     'quantity': forms.NumberInput()
          }
